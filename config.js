@@ -3,20 +3,20 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("923427630911,923024474610")
 global.mongodb = process.env.MONGODB_URI || ""
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/naveeddogar/KING-MD'
 global.location = 'pakistan/multan'
-global.gurl = 'https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w' // add your username
-global.sudo = process.env.SUDO || '923096566451'
+global.gurl = 'wa.me/+923427630911' // add your username
+global.sudo = process.env.SUDO || '923427630911'
 global.devs = '923096566451';
 global.website = 'https://king-session.vercel.app' // Hello world
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || ' https://i.imgur.com/bXNKpxw.mp4'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Naveed Dogar' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'jutt-MD' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'MR-WAHAB' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
